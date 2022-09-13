@@ -2,13 +2,15 @@
 
 .zodiac {
     width: 200px;
-    background-color: antiquewhite;
+    background-color: #649CBC;
     margin: 10px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    color: black;
+    margin: 15px;
 }
 
 
@@ -16,7 +18,7 @@
     width: 100px;
 }
 
-.zodiac .name {
+.zodiac, .name, .dates {
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Cinzel Decorative', cursive;
