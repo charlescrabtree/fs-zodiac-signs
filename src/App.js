@@ -1,8 +1,8 @@
 import './App.css';
-import { zodiac } from './data';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import Main from './components/Main/Main';
+import { zodiac } from './data.js';
+import Header from './components/Header/Header.js';
+import Footer from './components/Footer/Footer.js';
+import Main from './components/Main/Main.js';
 
 function App() {
   return (
